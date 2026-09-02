@@ -115,7 +115,7 @@
         <!-- Hero Section with Food Photography Background -->
         <div class="hero-food-container relative flex items-center p-8 lg:p-14">
           <!-- Background image layer -->
-          <div class="hero-food-bg" style="background-image: url('/static/assets/images/hero_food_banner.jpg');"></div>
+          <div class="hero-food-bg" style="background-image: url('./assets/images/hero_food_banner.jpg');"></div>
           <!-- Dark gradient overlay -->
           <div class="hero-gradient-overlay"></div>
 
@@ -169,7 +169,7 @@
           <!-- Card 1: Human-in-the-Loop Vision -->
           <div class="glass-panel overflow-hidden flex flex-col justify-between group border-white/10 hover:border-[#00d084]/50">
             <div class="h-44 relative overflow-hidden">
-              <img src="/static/assets/images/thali_meal.jpg" alt="Food Recognition" class="w-full h-full object-fit-cover group-hover:scale-105 transition duration-500">
+              <img src="./assets/images/thali_meal.jpg" alt="Food Recognition" class="w-full h-full object-fit-cover group-hover:scale-105 transition duration-500">
               <div class="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/40 to-transparent"></div>
               
               <!-- Simulated Bounding Box Overlay -->
@@ -347,7 +347,7 @@
               <!-- Preview State with Image Thumbnail -->
               <div id="dropzone-preview" class="hidden w-full h-full flex flex-col items-center justify-center">
                 <div class="w-32 h-32 rounded-xl overflow-hidden mb-3 border-2 border-[#00d084] shadow-lg">
-                  <img id="preview-img-tag" src="/static/assets/images/thali_meal.jpg" alt="Scanned Meal" class="w-full h-full object-fit-cover">
+                  <img id="preview-img-tag" src="./assets/images/thali_meal.jpg" alt="Scanned Meal" class="w-full h-full object-fit-cover">
                 </div>
                 <p class="text-sm font-bold text-white" id="preview-meal-title">North Indian Thali</p>
                 <button type="button" onclick="event.stopPropagation(); app.resetScanner();" class="mt-2 text-xs text-red-400 hover:underline">
@@ -403,7 +403,7 @@
 
               <!-- Interactive Detection Image with Bounding Boxes -->
               <div class="detection-stage-container" id="detection-stage-box">
-                <img id="detection-stage-img" src="/static/assets/images/thali_meal.jpg" alt="Detected Meal" class="detection-food-img">
+                <img id="detection-stage-img" src="./assets/images/thali_meal.jpg" alt="Detected Meal" class="detection-food-img">
                 <div id="detection-bboxes-layer" class="absolute inset-0 pointer-events-none">
                   <!-- Dynamically injected bounding boxes -->
                 </div>
@@ -994,7 +994,7 @@
       <div class="flex items-start justify-between pb-4 border-b border-white/10 gap-4">
         <div class="flex flex-col sm:flex-row sm:items-center gap-4">
           <div class="w-16 h-16 sm:w-20 sm:h-20 rounded-2xl overflow-hidden border border-white/20 shrink-0 shadow-lg">
-            <img id="modal-recipe-img" src="/static/assets/images/thali_meal.jpg" alt="Recipe Image" class="w-full h-full object-cover">
+            <img id="modal-recipe-img" src="./assets/images/thali_meal.jpg" alt="Recipe Image" class="w-full h-full object-cover">
           </div>
           <div>
             <div class="flex items-center gap-2 flex-wrap mb-1">
